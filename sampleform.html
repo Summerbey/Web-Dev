@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Professional Sample Form</title>
+</head>
+<body>
+    <hi>A Professional Sample Form</hi>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="firstName">First Mane: *</label>
+            <input type="text" id="firstName" name="firstName" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Feedback</legend>
+            <label for="feedback">Your Feedback</label>
+            <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Provide your feedback here..."></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Agreement</legend>
+            <p>Do you agree with the statement?</p>
+            <input type="radio" id="agreeYes" name="agree" value="yes">
+            <label for="agreeYes">Yes</label>
+            <input type="radio" id="agreeNo" name="agree" value="no">
+            <label for="agreeNo">No</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Location</legend>
+            <label for="city">What city are you from?</label>
+            <select id="city" name="city">
+                <option value="paisley">Paisley</option>
+                <option value="hamilton">Hamilton</option>
+                <option value="motherwell">Motherwell</option>
+                <option value="glasgow">Glasgow</option>
+                <option value="bishopton">Bishopton</option>
+                <option value="erskine">Erskine</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Job Information</legend>
+            <p>Select your Job Position</p>
+            <input type="radio" id="jobDeveloper" name="job" value="developer">
+            <label for="jobDeveloper">Web Developer</label>
+            <input type="radio" id="jobDesigner" name="job" value="designer">
+            <label for="jobDesigner">Designer</label>
+            <input type="radio" id="jobhealthcareworker" name="job" value="healthcareworker">
+            <label for="jobhealthcareworker">Healthcare Worker</label>>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Event Date</legend>
+            <label for="eventDate">Select a date for your feedback submission:</label>
+            <input type="date" id="eventDate" name="eventDate">
+        </fieldset>
+
+        <fieldset>
+            <legen>File Upload</legen>
+            <label for="degreeFile">Upload your degree / qualification (Accepted formats: jpg, png, pdf, doc) :</label>
+            <input type="file" id="degreeFile" name="degreeFile" accept=" .jpg,.jpeg,.png,.pdf,.doc">
+        </fieldset>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>    
+</html>

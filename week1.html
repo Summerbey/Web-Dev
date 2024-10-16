@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="viewbox" content="width=device-width, initial-scale=1.0">
+    <title>Image Map Exercise</title>
+</head>
+<body>
+    <h1>Image Map Exercise</h1>
+    <p>Summer Rhoda</p>
+    <p>Student Number: B00477047</p>
+
+    <img src="shape.png" alt="Geometric Shapes" usemap="#shapemap" width="600" height="150">
+
+    <map name="shapemap">
+        <area shape="poly" coords="15,15,135,15, 135, 135, 15, 132" href="#red-square" alt="Red Square">
+
+        <area shape="circle" coords="225,75,60" href="#green-circle" alt="Green Circle">
+        <area shape="circle" coords="190, 75,55" href="#green-circle" alt="Green Circle" nohref>
+
+        <area shape="poly" coords="375, 15,315,135,435,135,375,15" href="#blue-triangle" alt="Blue-Triangle">
+        <area shape="poly" coords="375,25,325,130,425,130,375,25" href="#blue-triangle" alt="Blue-Triangle" nohref>
+
+        <area shape="poly" coords="555,75,60" href="#yellow-star" alt="Yellow-Star">
+        <area shape="poly" coords="555,75,60" href="#yellow-star" alt="Yellow-Star" nohref>
+    </map>
+
+    <h2>Shape Information</h2>
+    <div id="re-square">
+        <h3>Red Square</h3>
+        <p>You can hoover and click on the red square.</p>
+    </div>
+
+    <div id="green-circle">
+        <h3>Blue Triangle</h3>
+        <p>You can hoover and click on the border of the blue triangle.</p>
+    </div>
+
+    <div id="yellow-star">
+        <h3>Yellow Star</h3>
+        <p>You can hoover and click on the border of the yellow start.</p>
+    </div>
+</body>    
+</html>
